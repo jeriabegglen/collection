@@ -43,13 +43,13 @@ public class CollectionAssignmentTest {
     @Test
     public void testConvert() {
         System.out.println("convert");
-        String s1 = "9360";
+        String s1 = "8955";
         CollectionAssignment instance = new CollectionAssignment();
-        int expResult = 0;
-        int result = instance.convert(s1);
+        String expResult = "22915";
+        String result = instance.convert(s1);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        //fail("The test case is a prototype.");
     }
     
 }
