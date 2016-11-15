@@ -38,7 +38,14 @@ public class CollectionWithKiss {
             try (Close out = outExpect("24030")){
             }
         }
-    
     }
+    
+    void testConvertion2() {
+        try (Close in = inProvide(8955, EOL)){
+            try (Close out = outExpect("22915")){
+            }
+        }
+    }
+    
 }
 
