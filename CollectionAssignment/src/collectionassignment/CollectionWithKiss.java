@@ -21,8 +21,6 @@ public class CollectionWithKiss {
         value.add(4766);
         value.add(5001);
      
-        System.out.println("Seconds converter to hours:minutes:seconds ");
-
         int hours = 0, minutes = 0, seconds = 0, remainder = 0;
         for(int i : value){
             hours = i / 3600;
@@ -35,4 +33,12 @@ public class CollectionWithKiss {
         
     }
     
+    void testConvertion() {
+        try (Close in = inProvide(9360, EOL)){
+            try (Close out = outExpect("24030")){
+            }
+        }
+    
+    }
 }
+
