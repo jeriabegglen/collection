@@ -12,7 +12,7 @@ import java.util.Iterator;
 
 public class CollectionWithKiss {
     
-    public static void main(String[] args) {
+    void run() {
     
         Collection<Integer> value = new ArrayList<Integer>();
    
@@ -31,6 +31,8 @@ public class CollectionWithKiss {
             seconds = remainder % 60;
             System.out.println(i + " seconds = " + hours + ":" + minutes + ":" + seconds + ":");
         } 
+        
+        
     }
     
 }
